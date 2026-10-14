@@ -1,0 +1,26 @@
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+HETATM    1  C1  EOL A 900     157.692 184.927 161.304  1.00 34.56      E    C  
+HETATM    2  O1  EOL A 900     154.179 185.455 162.223  1.00 34.56      E    O  
+HETATM    3  C2  EOL A 900     158.315 185.122 162.519  1.00 34.56      E    C  
+HETATM    4  O2  EOL A 900     155.681 184.850 159.992  1.00 34.56      E    O  
+HETATM    5  C3  EOL A 900     156.317 185.040 161.216  1.00 34.56      E    C  
+HETATM    6  C4  EOL A 900     157.563 185.430 163.639  1.00 34.56      E    C  
+HETATM    7  C5  EOL A 900     155.568 185.348 162.330  1.00 34.56      E    C  
+HETATM    8  C6  EOL A 900     156.188 185.543 163.548  1.00 34.56      E    C  
+HETATM    9  C7  EOL A 900     159.830 184.994 162.617  1.00 34.56      E    C  
+HETATM   10  C8  EOL A 900     160.176 183.902 163.619  1.00 34.56      E    C  
+HETATM   11  C9  EOL A 900     160.590 184.476 164.970  1.00 34.56      E    C  
+HETATM   12  C10 EOL A 900     156.156 185.731 159.020  1.00 34.56      E    C  
+CONECT    1    3    5
+CONECT    2    7
+CONECT    3    1    6    9
+CONECT    4    5   12
+CONECT    5    1    4    7
+CONECT    6    3    8
+CONECT    7    2    5    8
+CONECT    8    6    7
+CONECT    9    3   10
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12    4
+END
